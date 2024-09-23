@@ -1,0 +1,118 @@
+
+/*==== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+===================================*/
+/*----------------------------------
+1. Common CSS
+..................................*/
+.sectionhome_column {
+    background-color: var(--indigo_200);
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 86px 56px;
+    @media only screen and (max-width: 1050px) 
+    {
+        width: 100%;
+        padding: 20px;
+    }
+}
+.sectionhome_image--search {
+    height: 100px;
+    width: 100px;
+}
+.columnabv_button--abv-calculator {
+    color: var(--black_900) !important;
+    padding-left: 34px;
+    padding-right: 34px;
+    background-color: var(--indigo_200) !important;
+    height: 42px;
+}
+/*------------------------------
+2. Page CSS
+-------------------------------*/
+.desktop-one {
+    background-color: var(--lime_50);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rowbeefolkmeade { 
+    align-self: stretch;
+}
+.sectionheader {
+    padding-top: 28px; padding-bottom: 28px;
+    background-color: var(--blue_gray_900_e5); box-shadow: var (--shadow-xs);
+    @media only screen and (max-width: 550px) { 
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+.columnitsmead {
+    gap: 2px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.navbar {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.rowitsmead {
+    padding-left: 180px;
+    padding-right: 56px; flex: 1;
+    display: flex;
+    @media only screen and (max-width: 1050px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.rowmenu {
+    margin-bottom: 14px;
+    padding-left: 56px; padding-right: 180px; display: flex;
+    @media only screen and (max-width: 1050px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.beefolkmeadery__image {
+    height: 160px;
+    width: 30%;
+    object-fit: contain;
+}
+.sectionhome {
+    margin-top: 190px;
+    margin-left: 328px;
+    margin-right: 328px; gap: var(--space-xs); display: flex;
+    align-self: stretch;
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.sectionhome_image--button {
+    height: 274px;
+    width: 32%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+.columnaby {
+    gap: 50px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column; align-items: start; max-width: 976px;
+    width: 100%;
+    margin: 262px auto 4px auto;
+    @media only screen and (max-width: 1050px){
+        padding-left: 20px; 
+        padding-right: 20px;
+    }
+}
