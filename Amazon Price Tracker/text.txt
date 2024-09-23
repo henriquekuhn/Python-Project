@@ -1,0 +1,5 @@
+Para gerar a senha (MY_PASSWORD) do email utilizada no projeto, siga os seguintes passos:
+
+1. Entre no seu gmail;
+2. No canto direito superior, clique em seu ícone e em seguida em "Manage your Google Account";
+3. Na barra de pesquisa no topo da tela, pesquise por "App passwords".
